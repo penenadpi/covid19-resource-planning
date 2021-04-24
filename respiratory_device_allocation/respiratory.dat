@@ -1,0 +1,26 @@
+param numCities=3;
+
+param Travel_Cost: 1 2 3:=
+    1   5		1   	500		
+    2   5		5		5		
+	3   5		5		5;
+	
+param CriticalPatients:=
+	1   10
+	2   10
+	3   20;
+
+param RespiratorAmount:=
+	1   5
+	2   14
+	3   50;
+	
+param RespiratorPrice:=
+	1   100
+	2   100
+	3   230;
+	
+param Budget:=
+	1   3000
+	2   3000
+	3   4000;
